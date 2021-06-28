@@ -11,6 +11,8 @@
 
 - Thailand :thailand:
 - United states of America 🇺🇸
+- Canada 🇨🇦
+- England 🇬🇧
 
 # Build with 🛠️
 

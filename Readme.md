@@ -1,6 +1,6 @@
 # In the office for... 🏢
 
-<a href="https://in-the-office-for.web.app/" target="_blank">Click to see Intheofficefor.. website</a>
+<a href="https://in-the-office-for.web.app/" target="_blank">https://in-the-office-for.web.app/</a>
 
 
 # In this website 📰

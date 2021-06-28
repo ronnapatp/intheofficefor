@@ -74,12 +74,12 @@
     <body>
         
 <center>
-<a href="us.html" class="button">คลิกเพื่อเปลี่ยนประเทศ</a>
-<p>ประเทศไทย</p>
-        <p style="font-size: 200%;">นายกคนที่ 29 ของไทยหรือนายกรัฐมนตรีคนปัจจุบันอยู่ในตำเเหน่งมาเเล้ว...</p>
+<a href="index.html" class="button">คลิกเพื่อเปลี่ยนประเทศ</a>
+<p>ประเทศอังกฤษ</p>
+        <p style="font-size: 200%;">นายกรัฐมนตรีของสหราชอาณาจักรหรือนายกรัฐมนตรีคนปัจจุบันอยู่ในตำเเหน่งมาเเล้ว...</p>
 
 
-        <p>(22 พฤษภาคม พ.ศ. 2557)</p>
+        <p>(24 กรกฎาคม พ.ศ. 2562)</p>
         <div class="countup" id="countup1" style="font-size: 400%;">
             <span class="timeel years">00</span>
             <span class="timeel timeRefYears">ปี </span>
@@ -92,11 +92,11 @@
             <span class="timeel seconds">00</span>
             <span class="timeel timeRefSeconds">วินาที</span>
         </div>
-        <a href="https://th.wikipedia.org/wiki/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B9%8C_%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C%E0%B9%82%E0%B8%AD%E0%B8%8A%E0%B8%B2"     style="color: white; font-size: 100%;" target="_blank">กดเพื่อศึกษาต่อเกี่ยวกับนายกรัฐมนตรี</a>
+        <a href="https://th.wikipedia.org/wiki/%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%90%E0%B8%A1%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B5%E0%B8%AA%E0%B8%AB%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%AD%E0%B8%B2%E0%B8%93%E0%B8%B2%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3"     style="color: white; font-size: 100%;" target="_blank">กดเพื่อศึกษาต่อเกี่ยวกับนายกรัฐมนตรี</a>
         <script>
         window.onload = function() {
         // Month Day, Year Hour:Minute:Second, id-of-element-container
-        countUpFromTime("May 22, 2014 16:30:00", 'countup1'); // ****** Change this line!
+        countUpFromTime("July 24, 2019 00:00:00", 'countup1'); // ****** Change this line!
         };
         function countUpFromTime(countFrom, id) {
         countFrom = new Date(countFrom).getTime();
@@ -125,11 +125,44 @@
         countUpFromTime.interval = setTimeout(function(){ countUpFromTime(countFrom, id); }, 1000);
         }
         </script>
-        <p style="font-size: 300%;">เเละจะได้เลือกตั้งในอีก</p>
-        <p style="font-size: 250%;">ยังไม่มีข้อมูล</p>
-        <p></p>
+        <p style="font-size: 200%;">เเละจะได้เลือกตั้งในอีก</p>
+        <p id="demo" style="font-size: 290%;"></p>
+        <p>(2 พฤษภาคม พ.ศ. 2567)</p>
+
+        
 
 
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("May 2, 2024 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "วัน " + hours + "ชั่วโมง "
+  + minutes + "นาที " + seconds + "วินาที ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
 </center>
 
         <details open id="myDetails" onclick="open()">

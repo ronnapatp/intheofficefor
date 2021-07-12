@@ -9,10 +9,12 @@
 
 # Country in this website 🗺️
 
-- Thailand :thailand:
-- United states of America 🇺🇸
-- Canada 🇨🇦
-- England 🇬🇧
+- Thailand 
+- United states of America
+- Canada
+- England
+- Japan
+- South Korea 
 
 # Build with 🛠️
 
